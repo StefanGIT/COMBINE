@@ -4406,7 +4406,7 @@ C opt 1: arithmetic mean
                   endif
                enddo
 
-C opt 2: exponential mean; kT=0.596 kcal/mol
+C opt 2: exponential mean
             else
                do l =1,(nrow/nconf)
                   if(group(l).eq.i)then
